@@ -1,0 +1,29 @@
+# RAG 法律文档 Demo - 依赖
+# Python 3.10+
+
+# 框架（保持原版本）
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# 🔥 替换为 FAISS 纯 Python 版（无编译依赖）
+langchain-huggingface>=0.1.0
+
+# Embedding（保持原版本）
+sentence-transformers==2.7.0
+
+# 文档解析（保持原版本）
+pypdf>=3.0.0
+docx2txt>=0.8
+
+# 大模型调用（保持原版本）
+openai>=1.0.0
+
+# 环境变量（保持原版本）
+python-dotenv>=1.0.0
+
+# Windows 兼容性依赖
+pywin32>=306
+setuptools>=65.5.0
+wheel>=0.42.0

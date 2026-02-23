@@ -1,0 +1,43 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+
+# 本地环境与密钥（勿提交）
+.env
+.env.local
+*.pem
+
+# 向量库与模型缓存（体积大、可本地重建）
+chroma_laws_db/
+model_cache/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时
+*.log
+.cache/
+tmp/
+temp/
